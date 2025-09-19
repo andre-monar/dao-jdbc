@@ -1,5 +1,8 @@
 package model.dao;
 
-public interface SellerDao {
+import model.entities.Seller;
+import java.util.List;
 
+public interface SellerDao extends Dao<Seller> {
+	
 }

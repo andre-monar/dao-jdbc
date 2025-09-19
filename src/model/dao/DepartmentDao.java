@@ -1,5 +1,6 @@
 package model.dao;
 
-public class DepartmentDao {
+import model.entities.Department;
 
+public interface DepartmentDao extends Dao<Department> {
 }
